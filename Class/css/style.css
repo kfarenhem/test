@@ -1,0 +1,100 @@
+
+body
+{
+  background-color: rgba(170, 192, 242, 1);
+}
+/* this will grab all h1 tags  */
+h1
+{
+  color: purple;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+.navigation
+{
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontalline
+{
+  padding-top: 20px;
+}
+.horizontalline li
+{
+display: inline;
+margin: 40px;
+padding: 20px 60px 20px 60px;
+background-color:white;
+width: 10%;
+}
+
+.horizontalline li a
+{
+  color: orange;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontalline li a:hover
+{
+  color: red;
+}
+
+
+h2
+{
+  font-family: 'Indie Flower', cursive;
+}
+.container
+{
+  margin: auto;
+  padding: 20px;
+background-color:rgb(194, 153, 226);
+width: 600px;
+box-shadow: 30px 35px 10px 10px rgb(44, 13, 65);
+
+}
+
+
+
+.container h1 {
+  font-size: 4em;
+}
+
+.SideBar {
+float:left;
+margin:auto;
+padding: 20px;
+background-color:rgb(152, 153, 226);
+width: 10%;
+
+
+
+}
+.article
+h1
+{
+  color: purple;
+}
+
+/* this is an id */
+#dog {
+  background-color: rgb(235, 141, 231);
+  width: 400px;
+  box-shadow: 30px 35px 10px 10px rgb(193, 91, 172);
+
+}
+
+p
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+img
+{
+  border-radius: 50%;
+}

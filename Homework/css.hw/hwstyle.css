@@ -1,0 +1,110 @@
+body
+{
+
+  margin: auto;
+  background-color: rgba(170, 192, 242, 1);
+}
+/* this will grab all h1 tags  */
+
+.navigation
+{
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontalline
+{
+  padding-top: 20px;
+}
+.horizontalline li
+{
+display: inline;
+margin: 40px;
+padding: 20px 60px 20px 60px;
+width: 10%;
+}
+.horizontalline li a
+{
+  color: black;
+  text-decoration: none;
+  font-family: 'Lacquer', sans-serif;
+}
+.horizontalline li a:hover
+{
+  color: blue;
+}
+
+
+h1
+{
+  color: black;
+  font-family: 'Lacquer', sans-serif;
+  letter-spacing: .2rem;
+  border-top: dashed rgb(94, 88, 196);
+}
+
+img
+{
+  box-shadow: 20px 15px 5px 5px white;
+  border-radius: 10%
+
+}
+h2
+{
+  color: black;
+  font-family: 'Lacquer', sans-serif;
+}
+h3
+{
+  font-family: 'Lacquer', sans-serif;
+}
+
+
+p
+{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.table
+{
+color: black;
+font-family: 'Lacquer', sans-serif;
+background-color:rgb(152, 153, 226);
+box-shadow: 20px 15px 5px 5px white;
+border-radius: 3%;
+}
+
+tr
+{
+  font-family: 'Lacquer', sans-serif;
+}
+td
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.SideBar
+ {
+float:left;
+margin:auto;
+padding: 20px;
+width: 30%;
+}
+
+
+
+
+.contact
+{
+color: black;
+}
+
+.contact ul
+{
+font-family: 'Open Sans', sans-serif;
+}
