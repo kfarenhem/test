@@ -66,6 +66,6 @@ footer
   display: grid;
   grid-template-rows: 50% 50%;
   grid-template-columns: 1fr 1fr;
-  align: center important;
+  
 
 }
