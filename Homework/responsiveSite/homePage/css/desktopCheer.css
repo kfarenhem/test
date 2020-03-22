@@ -1,0 +1,171 @@
+
+
+body
+{
+  margin: 0px;
+  background-color: white;
+}
+
+hr
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.header
+{
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(242, 0, 255, 0.45);
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+.header h1
+{
+    width: 50%;
+    margin: 0px;
+    left: 5%;
+    top: 25%;
+    position: relative;
+    color: white;
+    font-family: 'Bebas Neue';
+}
+.header ul
+{
+  float: right;
+  width: 40%;
+  list-style-type: none;
+  margin-top: -15px;
+}
+.header nav ul li
+{
+  display: inline;
+  margin: 30px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.header nav ul li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------ */
+
+
+.parallax
+{
+  margin-top: 10vh;
+  height: 80vh;
+  background-image: url("../img/pyramid.jpg");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+.parallax h2
+{
+
+  margin: auto;
+
+  padding-top: 15%;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: white;
+
+}
+
+
+
+.movingImage
+{
+  height: 100vh;
+  background-image: url("../img/tumble.jpeg");
+  overflow: hidden;
+  animation: movingNames 85s linear infinite;
+
+}
+
+@keyframes movingNames {
+
+    0%
+    {
+      background-position: 0 0;
+    }
+
+    100%
+    {
+      background-position: -1920px 0;
+    }
+}
+
+.movingImage div
+{
+  padding-top: 15%;
+}
+.movingImage h2
+{
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(242, 0, 255, 0.45);
+}
+
+
+
+.gridImages
+{
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 30px;
+}
+.gridImages div img
+{
+  width: 100%;
+}
+.whiteBox
+{
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(242, 0, 255, 0.45);
+  font-size: 12px;
+  font-family: 'Bebas Neue';
+}
+
+
+
+.gridVideos
+{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.footer
+{
+    height: 20vh;
+    background-color: rgba(242, 0, 255, 0.45);
+}
+.footer div
+{
+
+  width: 100%;
+  margin:  auto;
+  color: white;
+
+}

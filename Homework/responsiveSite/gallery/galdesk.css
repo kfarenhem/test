@@ -1,0 +1,44 @@
+
+
+.gridImages
+{
+  width: 100%;
+  height: 200vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+}
+.gridImages div img
+{
+  width: 100%;
+  height: 20%%;
+
+}
+
+
+
+
+img
+{
+    display: inline important;
+    flex: 30%%;
+    padding: 5% 5%;
+    width: 50%;
+    align: center;
+
+  }
+
+header
+  {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    font-style: bold;
+    color: white;
+    align: center;
+    background-color: rgba(242, 0, 255, 0.45);
+    width: 100%;
+    height: 5%;
+  }

@@ -1,0 +1,69 @@
+
+
+
+
+body
+{
+font-family: 'Bebas Neue';
+background-color: white;
+
+}
+
+
+.gridLayout
+{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 350px;
+
+
+  display: grid;
+
+  grid-template-areas:  "hea hea hea"
+                        "nav nav nav"
+                        "main main main"
+                        "foo foo foo";
+
+                        grid-template-rows: 4% 12% 8% 10%;
+                        grid-template-columns: 1fr 1fr 1fr ;
+
+
+
+
+}
+
+header
+{
+  grid-area: hea;
+  background-color: rgba(242, 0, 255, 0.45);
+  color: white;
+
+
+}
+nav
+{
+  grid-area: nav;
+  background-color: white;
+}
+
+ main
+{
+  grid-area: main;
+  background-color: white;
+}
+footer
+{
+  grid-area: foo;
+  background-color: white;
+}
+
+.gridVideos
+{
+margin-top: 200px;
+  width: 100%;
+  height: 250vh;
+  display: grid;
+  grid-auto-rows: 25% 25% 25% 25%;
+}
